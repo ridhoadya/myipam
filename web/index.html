@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Networks App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Networks App</h1>
+        <form id="networkForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="subnet">Subnet:</label>
+            <input type="text" id="subnet" required>
+            <label for="parent_id">Parent ID:</label>
+            <input type="text" id="parent_id">
+            <button type="submit">Create Network</button>
+        </form>
+        <div id="networkList"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
